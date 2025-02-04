@@ -23,7 +23,7 @@ class CuadradoTest {
 	void testConstructor() {
 		double resultadoEsperado = 1;
 				double resultado;
-				resultado = cuadrado.la
+				resultado = cuadrado.lado();
 	assertEquals(resultadoEsperado, resultado);
 	}
 }

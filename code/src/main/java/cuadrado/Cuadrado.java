@@ -42,4 +42,10 @@ public class Cuadrado extends com.endes.figuras.FiguraGeometrica{
 		
 	}
 	
+	
+	public double obtenerLado(Punto esquina) {
+		lado = esquina1 - esquina2;
+		return 0;
+	}
+	
 }
