@@ -1,4 +1,4 @@
-package cuadrado;
+package com.endes.figuras;
 
 import punto.Punto;
 
@@ -11,7 +11,7 @@ public class Cuadrado extends com.endes.figuras.FiguraGeometrica{
 		super(nombre, color);
 		this.esquina = esquina;
 		if (lado < 0) {
-			this.lado = 0;
+			this.lado = 1;
 		} else {
 			this.lado = lado;
 		}
@@ -32,20 +32,9 @@ public class Cuadrado extends com.endes.figuras.FiguraGeometrica{
 		return perimetro;
 	}
 	
-	@Override
-	public void rotar(double angulo) {
-		
-	}
 	
-	@Override
-	public void trasladar(double dx, double dy) {
-		
-	}
-	
-	
-	public double obtenerLado(Punto esquina) {
-		lado = esquina1 - esquina2;
-		return 0;
+	public double getLado() {
+		return lado;
 	}
 	
 }
